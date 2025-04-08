@@ -1,0 +1,119 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p, label {
+    color: #333;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Search Bar */
+  #search-bar {
+    margin-bottom: 20px;
+  }
+  
+  #search-bar input,
+  #search-bar select {
+    padding: 5px;
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  
+  /* Event List Cards (Public View) */
+  .event-item {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .event-item h3 {
+    margin-top: 0;
+  }
+  
+  .event-img {
+    float: right;
+    max-width: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  /* Admin Events Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #eee;
+  }
+  
+  /* Forms (Add/Edit Event, Login) */
+  form div {
+    margin-bottom: 12px;
+  }
+  
+  form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="date"],
+  form input[type="password"],
+  form input[type="file"],
+  form select,
+  form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  form textarea {
+    resize: vertical;
+  }
+  
+  /* Messages */
+  .error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
